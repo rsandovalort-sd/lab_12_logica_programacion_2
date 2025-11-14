@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de temperaturas</title>
+    <link href="styles.css" rel="">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> 
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar bg-body-tertiary justify">
+            <div class="container-fluid d-flex justify-content-center align-items-center">
+                <a class="navbar-brand" href="#">
+                <img src="images/logo.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                Conversor de temperaturas
+                </a>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="container py-5"></div>
+        <div class="card mx-auto" style="max-width: 400px;">
+            <div class="card-body">
+                <h5 class="text-center">Conversor</h5>
+                <input type="text" class="form-control mb-3" id="celsius" placeholder="Ingrese los grados celsius">
+                <button type="button" class="btn btn-primary w-100 boton" onclick="convertirGrados()">Convertir</button>
+            </div>
+            <div id="resultado"></div>
+        </div>
+    </div>
+
+    <script src="scritp.js"></script>
+</body>
+</html>
